@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-sscale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>WebVR</title>
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    </head>
+    <body>
+
+        <a-scene>
+
+            <a-assets>
+
+                <img id="sky" src="skyy.jpg">
+                <a-asset-item id="Castle" src="scene.gltf" ></a-asset-item>  
+                <a-asset-item id="Catapult" src="catapult.obj" ></a-asset-item>
+                <a-asset-item id="Potion" src="potion.gltf" ></a-asset-item> 
+                <a-asset-item id="Catapult-o" src="catapult.obj" ></a-asset-item>
+                <a-asset-item id="Catapult-m" src="catapult.mtl" ></a-asset-item>
+                <a-asset-item id="NPC" src="waving.glb" ></a-asset-item>
+                <a-asset-item id="Arquera" src="arquera.glb" ></a-asset-item>
+                <a-asset-item id="c1" src="caballero.glb" ></a-asset-item>        
+                <a-asset-item id="c2" src="caballero2.glb" ></a-asset-item>
+                <a-asset-item id="c3" src="caballero3.glb" ></a-asset-item>
+                <a-asset-item id="banca" src="banca.gltf" ></a-asset-item>  
+                <a-asset-item id="b-m" src="1_banca.mtl" ></a-asset-item>
+                <a-asset-item id="b-o" src="1_banca.obj" ></a-asset-item>   
+            
+            </a-assets>
+
+            <a-entity   
+                        scale= "100 100 100" 
+                        position = "0 1.707 0 " 
+                        gltf-model="#Castle" >
+            </a-entity>
+
+            <a-entity 
+                        scale= "0.2 0.2 0.2" 
+                        position = "0 3.5 30"
+                        obj-model="obj: #Catapult-o; mtl: #Catapult-m" >
+            </a-entity>
+
+            <a-entity  
+                        scale= "0.7 0.7 0.7" 
+                        position = "-5.460 1.701 48.760 "  
+                        rotation="0 11.395 0" 
+                        gltf-model="#NPC" 
+                        animation-mixer>
+            </a-entity>
+
+            <a-entity  
+                        scale= "0.9 0.9 0.9" 
+                        position = "-5.903 1.701 16.506  "  
+                        rotation="0 11.395 0" gltf-model="#Arquera" 
+                        animation-mixer>
+            </a-entity>
+
+            <a-entity 
+                        scale= "0.3 0.3 0.3" 
+                        position = "-5.903 1.701 16.506"
+                        obj-model="obj: #b-o; mtl: #b-m" >
+            </a-entity>
+
+            <a-entity  
+                        scale= "0.9 0.9 0.9" 
+                        position = "-2.399 1.695 35.712 "  
+                        rotation="0 11.395 0"
+                        gltf-model="#c1" 
+                        animation-mixer>
+            </a-entity>
+
+            <a-entity  
+                        scale= "0.9 0.9 0.9" 
+                        position = "-2.562 1.695 29.014 "  
+                        rotation="0 11.395 0"
+                        gltf-model="#c1" 
+                        animation-mixer>
+            </a-entity>
+
+            <a-entity  
+                        scale= "0.9 0.9 0.9" 
+                        position = "-3.441 1.701 29.214 "  
+                        rotation="0 11.395 0" 
+                        gltf-model="#c2" 
+                        animation-mixer>
+            </a-entity>
+
+            <a-entity  
+                        scale= "0.9 0.9 0.9" 
+                        position = "-1.331 1.701 35.644 "  
+                        rotation="0 11.395 0" 
+                        gltf-model="#c2" 
+                        animation-mixer>
+            </a-entity>
+
+            <a-entity  
+                        scale= "0.9 0.9 0.9" 
+                        position = "-2.635 1.701 39.561 "  
+                        rotation="0 11.395 0" 
+                        gltf-model="#c3" 
+                        animation-mixer>
+            </a-entity>
+
+            <a-entity  
+                        scale= "0.9 0.9 0.9" 
+                        position = "-3.944 1.701 39.561 "  
+                        rotation="0 11.395 0" 
+                        gltf-model="#c3" 
+                        animation-mixer>
+            </a-entity>
+
+            <a-entity  
+                        scale= "0.9 0.9 0.9" 
+                        position = "-1.587 1.701 39.561 "  
+                        rotation="0 11.395 0" 
+                        gltf-model="#c3" 
+                        animation-mixer>
+            </a-entity>
+
+            <a-entity  
+                        scale= "0.7 0.7 0.7" 
+                        position = "-5.460 1.701 48.760 "  
+                        rotation="0 11.395 0" 
+                        gltf-model="#banca" >
+            </a-entity>
+
+            <a-camera  
+                        position = "-4.218 2.838 55.936" 
+                        rotation="0.057 -0.366 -33.915">
+            </a-camera>
+
+            <a-sky      src="#sky">
+
+            </a-sky>
+
+
+        </a-scene>
+
+    </body>
+
+    </html>
+
+    

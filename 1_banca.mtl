@@ -1,0 +1,62 @@
+# Blender MTL File: 'banda de madera.blend'
+# Material Count: 5
+
+newmtl base1
+Ns 6.024791
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.000088 0.332035
+Ks 0.177273 0.177273 0.177273
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 5.400001 texture\\Wood035_2K_Normal.jpg
+map_Kd texture\\Wood035_2K_Color.jpg
+
+newmtl base2
+Ns 29.752068
+Ka 1.000000 1.000000 1.000000
+Kd 0.558341 0.028426 0.412543
+Ks 0.845455 0.845455 0.845455
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 5.400000 texture\\Wood035_2K_Normal1.jpg
+map_Kd texture\\Wood035_2K_Color1.jpg
+
+newmtl base3
+Ns 476.033086
+Ka 1.000000 1.000000 1.000000
+Kd 0.439657 0.064803 0.371238
+Ks 0.354545 0.354545 0.354545
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 5.400000 texture\\Wood035_2K_Normal.jpg
+map_Kd texture\\Wood035_2K_Color.jpg
+
+newmtl base4
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.174647 0.036889 0.181164
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 5.400000 texture\\Wood035_2K_Normal.jpg
+map_Kd texture\\Wood035_2K_Color.jpg
+
+newmtl base5
+Ns 73.803701
+Ka 1.000000 1.000000 1.000000
+Kd 0.434154 0.054480 0.371238
+Ks 0.922727 0.922727 0.922727
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 5.400000 texture\\Wood035_2K_Normal.jpg
+map_Kd texture\\Wood035_2K_Color.jpg
